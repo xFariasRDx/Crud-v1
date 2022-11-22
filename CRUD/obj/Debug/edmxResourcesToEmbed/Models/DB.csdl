@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Datos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha_de_nacimiento" Type="DateTime" Precision="3" />
+    <Property Name="Genero" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Direccion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Estado_Civil" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Movil" Type="String" MaxLength="14" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono" Type="String" MaxLength="14" FixedLength="false" Unicode="true" />
+    <Property Name="Correo_Electronico" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="TestingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Datos" EntityType="Self.Datos" />
+  </EntityContainer>
+</Schema>

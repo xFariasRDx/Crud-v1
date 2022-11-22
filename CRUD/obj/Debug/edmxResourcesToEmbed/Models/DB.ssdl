@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Datos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="50" />
+    <Property Name="Fecha de nacimiento" Type="datetime" />
+    <Property Name="Genero" Type="nvarchar" MaxLength="10" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="70" />
+    <Property Name="Estado Civil" Type="nvarchar" MaxLength="10" />
+    <Property Name="Movil" Type="nvarchar" MaxLength="14" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="14" />
+    <Property Name="Correo Electronico" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="TestingModelStoreContainer">
+    <EntitySet Name="Datos" EntityType="Self.Datos" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,17 @@
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\CRUD.exe.config
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\CRUD.exe
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\CRUD.pdb
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\EntityFramework.dll
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\EntityFramework.xml
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.csproj.AssemblyReference.cache
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.Form1.resources
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.csproj.GenerateResource.cache
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.csproj.CopyComplete
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.exe
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.pdb
+C:\Users\Miguel Farias\source\repos\CrudWindowForm\CRUD\obj\Debug\CRUD.FrmTabla.resources
